@@ -1,0 +1,23 @@
+//#PLEASE reffer to the README.md for accepted values FOR THE VARIABELS BELOW
+client_secret                   = "PLEASE ENTER CLIENT SECRET"                                     # "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+client_id                       = "PLEASE ENTER CLIENT ID"                                         # "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+tenant_id                       = "PLEASE ENTER TENANT ID"                                         # "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+subscription_id                 = "PLEASE ENTER SUBSCRIPTION ID"                                   # "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+resource_group_name             = "PLEASE ENTER RESOURCE GROUP NAME"                               # "checkpoint-ha-terraform"
+cluster_name                    = "PLEASE ENTER CLUSTER NAME"                                      # "checkpoint-ha-terraform"
+location                        = "PLEASE ENTER LOCATION"                                          # "eastus"
+vnet_name                       = "PLEASE ENTER VIRTUAL NETWORK NAME"                              # "checkpoint-ha-vnet"
+address_space                   = "PLEASE ENTER VIRTUAL NETWORK ADDRESS SPACE"                     # "10.0.0.0/16"
+subnet_prefixes                 = "PLEASE ENTER ADDRESS PREFIXES FOR SUBNETS"                      # ["10.0.1.0/24","10.0.2.0/24"]
+admin_password                  = "PLEASE ENTER ADMIN PASSWORD"                                    # "xxxxxxxxxxxx"
+sic_key                         = "PLEASE ENTER SIC KEY"                                           # "xxxxxxxxxxxx"
+vm_size                         = "PLEASE ENTER VM SIZE"                                           # "Standard_D3_v2"
+disk_size                       = "PLEASE ENTER DISK SIZE"                                         # "110"
+vm_os_sku                       = "PLEASE ENTER VM SKU"                                            # "sg-byol"
+vm_os_offer                     = "PLEASE ENTER VM OFFER"                                          # "check-point-cg-r8030"
+os_version                      = "PLEASE ENTER GAIA OS VERSION"                                   # "R80.30"
+bootstrap_script                = "PLEASE ENTER CUSTOM SCRIPT OR LEAVE EMPTY DOUBLE QUOTES"        # "touch /home/admin/bootstrap.txt; echo 'hello_world' > /home/admin/bootstrap.txt"
+allow_upload_download           = "PLEASE ENTER true or false"                                     # true
+authentication_type             = "PLEASE ENTER AUTHENTICATION TYPE"                               # "Password"
+availability_type               = "PLEASE ENTER AVAILABILITY TYPE"                                 # "Availability Zone"
+enable_custom_metrics           = "PLEASE ENTER true or false"                                     # true
